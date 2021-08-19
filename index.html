@@ -22,6 +22,35 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+  
+
+
+h1 { font-size: 20px; }
+
+.linear-wipe {
+  text-align: center;
+  
+  background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 400% center;
+    }
+  }
+}
+
+
+        </style>
+ 
     </head>
 
     <body>
@@ -96,22 +125,36 @@
                 <div class="owl-carousel">
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/football.jpg" style="opacity: 1; height: 700px;" alt="Image">
+                            <img src="img/wp2.jpg" style="opacity: 1; height: 750px;" alt="Image">
                         </div>
                         <div class="carousel-text">
-                            <h1 style="color: rgb(218, 205, 23);">Manager Hustle</h1>
+                            <h1 class="linear-wipe" style="color: rgb(218, 205, 23); font-size:75px;  ">Manager Hustle</h1>
                             <p>
-                               Here we go !
+                               <i style="font-size: 30px;">Here we go!!!</i>
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Register</a>
+                                <a class="btn btn-custom" href="" style=" border: 0;
+                                line-height: 2.5;
+                                padding: 0 20px;
+                                font-size: 1rem;
+                                text-align: center;
+                                color: #fff;
+                                text-shadow: 1px 1px 1px #000;
+                                border-radius: 10px;
+                                background-color: rgba(220, 0, 0, 1);
+                                background-image: linear-gradient(to top left,
+                                                                  rgba(0, 0, 0, .2),
+                                                                  rgba(0, 0, 0, .2) 30%,
+                                                                  rgba(0, 0, 0, 0));
+                                box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                                            inset -2px -2px 3px rgba(0, 0, 0, .6);" >Register Here</a>
                                 <!-- <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/gk.jpg" style="height: 700px;" alt="Image">
+                            <img src="img/gk.jpg" style="height: 750px;" alt="Image">
                         </div>
                         <div class="carousel-text">
                             <h1>Get Involved with helping hand</h1>
@@ -119,14 +162,28 @@
                                 Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn btn-custom" href="">Register</a>
+                                <a class="btn btn-custom" href="" style=" border: 0;
+                                line-height: 2.5;
+                                padding: 0 20px;
+                                font-size: 1rem;
+                                text-align: center;
+                                color: #fff;
+                                text-shadow: 1px 1px 1px #000;
+                                border-radius: 10px;
+                                background-color: rgb(8, 16, 128);
+                                background-image: linear-gradient(to top left,
+                                                                  rgba(0, 0, 0, .2),
+                                                                  rgba(0, 0, 0, .2) 30%,
+                                                                  rgba(0, 0, 0, 0));
+                                box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                                            inset -2px -2px 3px rgba(0, 0, 0, .6);">Register</a>
                                 <!-- <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch Video</a> -->
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="img/football2.jpg" style="height: 700px;" alt="Image">
+                            <img src="img/manager.jpg" style="height: 750px;" alt="Image">
                         </div>
                         <div class="carousel-text">
                             <h1>Bringing smiles to millions</h1>
@@ -382,10 +439,11 @@
                                 <h2>Timeline of the Event</h2>
                             </div>
                             <div class="donate-text">
+                                <div class="typing-demo">
                                 <p>
                                     <b style="color:#ffb703;">22/08:</b>  Registration Starts
                                     </p>
-                                    <p> <b style="color: #ffb703;">02/09:</b>  Registration Ends </p>
+                                    <p> <b style="color: #ffb703;">02/09:</b>Registration Ends </p>
                                     
                                     <p> <b style="color:#ffb703;">10/09:</b> Prelims Day 1 (Pool A & Pool B), Auction Round and transfer window starts </p>
                                    <p> <b style="color:#ffb703;">11/09:</b> Prelims Day 2 (Pool C & Pool D), Auction Round and transfer window starts </p>
@@ -402,6 +460,7 @@
                                     <p> <b style="color:#ffb703;"> 25/09:</b> Results Declared </p>
                                     
                                 </p>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -464,6 +523,7 @@
                                         <h2 style="color: aqua;">Structure of Event</h2>
                                     </div>
                                     <div class="volunteer-text">
+                                        <div class="typewriter">
                                         <!-- <h2 style="color: yellow;">Preliems</h2> -->
                                         <p>
                                             1) There will be 2 rounds- Prelims and Final.
@@ -479,6 +539,7 @@
 <p>10) Anyone not abiding by the aforementioned rules or doing something which is considered as against the code of conduct may be subjected to disqualification with/without a prior notice.</p>
 
                                         </p>
+                                    </div>
                                         <!-- <h2 style="color: yellow;">Finals</h2> -->
                                         <!-- <p>
                                             Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
